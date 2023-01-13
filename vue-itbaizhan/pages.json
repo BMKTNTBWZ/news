@@ -1,0 +1,104 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				//自定义顶部导航
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "课程",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00f783",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/study/study",
+			"style": {
+				"navigationBarTitleText": "学习"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户"
+			}
+		}
+	    ,{
+            "path" : "pages/city/city",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择城市",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/courseIntroduce/courseIntroduce",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程详情",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#00f783",
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/player/player",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "播放页面",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#00f783",
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		// "navigationBarTextStyle": "black",
+		// "navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTitleText": "uni-app",
+		"backgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#00f783",
+		"navigationBarTextStyle": "white"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+			"color":"#999",
+			"selectedColor": "#00b783",
+			"borderStyle": "#fff",
+			"backgroundColor": "#fff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabar1.png",
+				"selectedIconPath": "static/tabaron1.png"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"text": "课程",
+				"iconPath": "static/tabar2.png",
+				"selectedIconPath": "static/tabaron2.png"
+			},
+			{
+				"pagePath": "pages/study/study",
+				"text": "学习",
+				"iconPath": "static/tabar3.png",
+				"selectedIconPath": "static/tabaron3.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "用户",
+				"iconPath": "static/tabar4.png",
+				"selectedIconPath": "static/tabaron4.png"
+			}
+		]
+	}
+}
